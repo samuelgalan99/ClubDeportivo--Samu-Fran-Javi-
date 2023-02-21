@@ -14,7 +14,7 @@
 	<?php
 			    require 'conexion.php';
     
-				//Comienzo trayendome los id del index.html
+				//Comienzo trayendome el id del index.html
 				$id=$_GET['id'];
 				$sql= "Select $id from clubDeportivo";
 			
