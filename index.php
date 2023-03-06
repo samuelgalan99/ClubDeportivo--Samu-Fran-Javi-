@@ -1,6 +1,6 @@
 <?php
 
-//Establezco conexion
+//Establezco conexion 
 require 'conexion.php';
 
 //Preparo la sentencia SQL
