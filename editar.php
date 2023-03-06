@@ -43,7 +43,7 @@
 			
 			<div class="row">
 				<div class="col-md-8">
-					<!-- Completar atributos de form -->
+					<!-- Completar atributos de form --> 
 					<form action="editar2.php" name="registro" autocomplete="off" method="POST">
 						<div class="form-group">
 							<!-- Nombre -->
