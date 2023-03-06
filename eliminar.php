@@ -25,6 +25,7 @@
 			
 			//Realizo la sentenica para poder eliminar.
 				$sql= "delete from clubdeportivo where id like '$id'";
+				//Guardamos resultado
 				$resultado = $mysqli->query($sql);
 				?>
 			<br>
