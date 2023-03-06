@@ -90,7 +90,8 @@ $resultado = $mysqli->query($sql);
 
 
 </body>
-<footer>
+
+<footer> 
 	<p>Adios<p>
 </footer>
 
