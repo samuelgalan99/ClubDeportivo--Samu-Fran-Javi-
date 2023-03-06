@@ -1,19 +1,19 @@
 <?php
 
-//Establezco conexion
+//Establezco conexion 
 require 'conexion.php';
 
-//Preparo la sentencia SQL
+//Preparo la sentencia SQL 
 $sql = "SELECT * FROM clubDeportivo";
 
-//Ejecuto la sentencia y guardo el resultado
+//Ejecuto la sentencia y guardo el resultado 
 $resultado = $mysqli->query($sql);
 ?>
 
 <!doctype html>
 <html lang="es">
 
-<head>
+<head> 
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +28,7 @@ $resultado = $mysqli->query($sql);
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.dataTables.min.js"></script>
 
-	<title>Club Deportivo La Venta</title>
+	<title>GIT Club Deportivo La Venta</title>
 
 	<script>
 		// DataTables
@@ -39,8 +39,7 @@ $resultado = $mysqli->query($sql);
 
 
 </head>
-
-<body>
+<body> 
 	<div class="container">
 		<div class="row">
 			<h1>Socios</h1>
@@ -91,5 +90,9 @@ $resultado = $mysqli->query($sql);
 
 
 </body>
+
+<footer> 
+	<p>Adios<p>
+</footer>
 
 </html>
