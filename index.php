@@ -6,7 +6,7 @@ require 'conexion.php';
 //Preparo la sentencia SQL 
 $sql = "SELECT * FROM clubDeportivo";
 
-//Ejecuto la sentencia y guardo el resultado
+//Ejecuto la sentencia y guardo el resultado 
 $resultado = $mysqli->query($sql);
 ?>
 
