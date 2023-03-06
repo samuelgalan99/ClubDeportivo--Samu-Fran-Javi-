@@ -14,14 +14,18 @@
 	<?php
 			    require 'conexion.php';
     
+				//Comienzo trayendome el id del index.html
 				$id=$_GET['id'];
+				//Realizo la sentencia SQL
 				$sql= "Select $id from clubDeportivo";
 			
 				// Ejecuto la sentencia y guardo el resultado
+				//Ejecutamos sentencia y guardamos resultado.
 				$resultado= $mysqli->query($sql);
 			
-			
+			//Realizo la sentenica para poder eliminar.
 				$sql= "delete from clubdeportivo where id like '$id'";
+				//Guardamos resultado
 				$resultado = $mysqli->query($sql);
 				?>
 			<br>
