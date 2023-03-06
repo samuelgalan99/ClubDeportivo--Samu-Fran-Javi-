@@ -23,7 +23,7 @@
 				//Ejecutamos sentencia y guardamos resultado.
 				$resultado= $mysqli->query($sql);
 			
-			
+			//Realizo la sentenica para poder eliminar.
 				$sql= "delete from clubdeportivo where id like '$id'";
 				$resultado = $mysqli->query($sql);
 				?>
