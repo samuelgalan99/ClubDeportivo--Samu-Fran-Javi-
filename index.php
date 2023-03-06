@@ -39,8 +39,7 @@ $resultado = $mysqli->query($sql);
 
 
 </head>
-
-<body>
+<body> 
 	<div class="container">
 		<div class="row">
 			<h1>Socios</h1>
