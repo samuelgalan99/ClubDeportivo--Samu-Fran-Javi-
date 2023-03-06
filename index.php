@@ -28,7 +28,7 @@ $resultado = $mysqli->query($sql);
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.dataTables.min.js"></script>
 
-	<title>Club Deportivo La Venta</title>
+	<title>GIT Club Deportivo La Venta</title>
 
 	<script>
 		// DataTables
@@ -91,5 +91,8 @@ $resultado = $mysqli->query($sql);
 
 
 </body>
+<footer>
+	<p>Adios<p>
+</footer>
 
 </html>
