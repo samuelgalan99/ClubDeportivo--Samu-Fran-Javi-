@@ -1,5 +1,5 @@
 <?php
-	//Establezco conexion
+	//Establezco conexion 
 	require 'conexion.php';
 	$id=$_GET['id'];
 	$sql= "SELECT * FROM clubDeportivo where id='$id'";
