@@ -4,7 +4,7 @@
 	$id=$_GET['id'];
 	$sql= "SELECT * FROM clubDeportivo where id='$id'";
 
-	// Ejecuto la sentencia y guardo el resultado
+	// Ejecuto la sentencia y guardo el resultado 
 	$resultado= $mysqli->query($sql);
 
 	while($fila = $resultado->fetch_assoc()){
