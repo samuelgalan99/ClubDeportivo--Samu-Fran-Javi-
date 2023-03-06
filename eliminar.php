@@ -16,6 +16,7 @@
     
 				//Comienzo trayendome el id del index.html
 				$id=$_GET['id'];
+				//Realizo la sentencia SQL
 				$sql= "Select $id from clubDeportivo";
 			
 				// Ejecuto la sentencia y guardo el resultado
