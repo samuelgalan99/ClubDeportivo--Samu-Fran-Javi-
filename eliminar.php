@@ -20,6 +20,7 @@
 				$sql= "Select $id from clubDeportivo";
 			
 				// Ejecuto la sentencia y guardo el resultado
+				//Ejecutamos sentencia y guardamos resultado.
 				$resultado= $mysqli->query($sql);
 			
 			
