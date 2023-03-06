@@ -3,7 +3,7 @@
 //Establezco conexion 
 require 'conexion.php';
 
-//Preparo la sentencia SQL
+//Preparo la sentencia SQL 
 $sql = "SELECT * FROM clubDeportivo";
 
 //Ejecuto la sentencia y guardo el resultado
